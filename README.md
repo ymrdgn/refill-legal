@@ -22,8 +22,7 @@ git add -A && git commit -m "Add legal pages and invite redirect" && git push
 ```
 
 Yayından önce:
-- `REFILL_SUPPORT_EMAIL` yer tutucusunu üç sayfada gerçek destek adresiyle değiştir:
-  `sed -i '' 's/REFILL_SUPPORT_EMAIL/destek@adresin/g' web/*.html`
+- Destek adresi: refillappsupport@gmail.com (üç sayfada da yazılı).
 - `join.html` ve `404.html` içindeki App Store adresini uygulama yayınlanınca doldur.
 - `.env`'e `EXPO_PUBLIC_LINK_BASE=https://ymrdgn.github.io/refill-legal` yaz.
 
